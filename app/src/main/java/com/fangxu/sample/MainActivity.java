@@ -33,6 +33,13 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main_litt);
        xbutton = (AllAngleExpandableButton) findViewById(R.id.button_expandable_0_180);
          reddot = findViewById(R.id.reddot) ;
+         reddot.setOnClickListener(new View.OnClickListener(){
+
+             @Override
+             public void onClick(View v) {
+                 xbutton.collapse();
+             }
+         }) ;
        // installButton90to90();
        // installButton90to180();
        // installButton110to250();

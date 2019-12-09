@@ -31,7 +31,7 @@
                 app:aebButtonGapDp="55dp"
                 app:aebEndAngleDegree="175"
                 app:aebIsSelectionMode="false"
-                app:aebMainButtonSizeDp="75dp"
+                app:aebMainButtonSizeDp="70dp"
                 app:aebRippleEffect="true"
                 app:aebStartAngleDegree="5"
                 app:aebSubButtonSizeDp="65dp"/>
